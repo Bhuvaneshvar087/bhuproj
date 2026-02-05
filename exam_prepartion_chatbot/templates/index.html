@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exam Preparation Chatbot</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<div class="app">
+    <h1>📘 Exam Preparation Chatbot</h1>
+
+    <select id="topicSelect">
+        <option>Bayes Theorem</option>
+        <option>Deadlock</option>
+    </select>
+
+    <div class="card">
+        <p id="question">Select a topic to start</p>
+        <input id="answer" placeholder="Type your answer here..." />
+        <button onclick="submitAnswer()">Submit</button>
+        <p id="feedback"></p>
+    </div>
+
+    <button class="reportBtn" onclick="loadReport()">View Weak-Area Report</button>
+    <div id="report"></div>
+</div>
+
+<script src="/static/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+    "Bayes Theorem": {
+        "question": "Explain Bayes Theorem.",
+        "answer": "probability"
+    },
+    "Deadlock": {
+        "question": "Define Deadlock in Operating System.",
+        "answer": "deadlock"
+    }
+}
